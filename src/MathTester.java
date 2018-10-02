@@ -1,10 +1,34 @@
 public class MathTester {
 
 public static void main(String[] args) {
+    int firstNumber = 10;
+    int secondNumber = 20;
+    int total;
+    if (firstNumber>secondNumber) {
+        System.out.println(firstNumber +" is greater");
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     String firstWord;
     String secondWord;
-    int firstNumber,secondNumber, total;
 
 
     firstWord = "dog";
@@ -16,7 +40,7 @@ public static void main(String[] args) {
     total = total + 10;
 
 
-    
+
 
 
    /* System.out.println(firstWord + secondWord);
