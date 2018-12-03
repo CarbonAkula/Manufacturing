@@ -1,3 +1,5 @@
+package com.LickingHeights;
+
 import java.util.Scanner;
 
 public class Manufacturing {
