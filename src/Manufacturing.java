@@ -24,13 +24,13 @@ public static double calcCost(int numOfItems, double itemCost) {
     //initializing
 
     for (int i = 1; i < numOfItems; i++) {
-        System.out.println("How many did you buy of supply item " + i);
+        System.out.println("How many did you buy of supply item " + i + "?");
         numOfItems = keyboard.nextInt();
-        System.out.println("How much per item ?");
+        System.out.println("How much per item?");
         itemCost = keyboard.nextDouble();
         subtotal = subtotal + (numOfItems * itemCost);
     }
     return totalCost;
 }
 
-public double profit(double totalCost, int totalSales){}
+public static double profit(double totalCost, int totalSales){}
