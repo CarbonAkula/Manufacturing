@@ -1,4 +1,4 @@
-package com.LickingHeights;
+
 
 import java.util.Scanner;
 
@@ -7,13 +7,13 @@ public class Manufacturing {
         double totalCost, subtotal, profit;
         int totalSales, days, numOfItems;
         Scanner keyboard;
-        totalCost=calcCost(numOfItems;keyboard);
+        totalCost=calcCost(numOfItems,keyboard);
         totalSales=(days,keyboard);
         profit=profit(totalCost,totalSales);
 
     }
 }
-public double calcCost(int numOfItems, double itemCost) {
+public static double calcCost(int numOfItems, double itemCost) {
 
     //declare
     double totalCost, subtotal;
@@ -33,4 +33,4 @@ public double calcCost(int numOfItems, double itemCost) {
     return totalCost;
 }
 
-public double profit(double totalCost, int totalSales);
+public double profit(double totalCost, int totalSales){}
