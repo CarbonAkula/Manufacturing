@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class Manufacturing {
+    private static double profit;
+
     public static void main(String[] args) {
         double totalCost, subtotal, profit, itemCost;
         int totalSales, days, numOfItems;
@@ -36,4 +38,8 @@ public static double calcCost(int numOfItems, double itemCost) {
 
 public static double profit(double totalCost, int totalSales){
     return profit;
-}}
+}
+
+    public static void setProfit(double profit) {
+        Manufacturing.profit = profit;
+    }}
